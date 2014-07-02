@@ -2,9 +2,14 @@
   <div class="container-fluid">
     <div class="container">
       <%= link_to "Shopalite", root_path, id: "logo" %>
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Search", '#' %></li>
+        <li><%= link_to "Discover", '#' %></li>
+        <li><%= link_to "Shop", '#' %></li>
+      </ul>
       <nav>
-        <ul class="nav pull-right">
-         <li><%= link_to "Sign in", '#' %></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Sign in", '#' %></li>
         </ul>
       </nav>
     </div>
