@@ -68,6 +68,7 @@ p {
   padding-left: 20px;
 }
 
+
 /* header */
 
 #logo {
@@ -102,6 +103,7 @@ p {
 	background-image-width: 100%;
 	text-align: center;
 	padding-bottom: 325px;
+	background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -109,7 +111,7 @@ p {
 .jumbotron p {
 	padding-top: 100px;
 	color: white;
-	
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 /* footer */
@@ -119,15 +121,6 @@ footer {
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
 	color: #999;
-}
-
-footer small {
-	text-align: center;
-}
-
-footer ul {
-	text-align: center;
-	list-style: none;
 }
 
 footer ul li {
