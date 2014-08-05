@@ -90,8 +90,8 @@ p {
 
 #homeh1 {
 	text-align: center;
-	font-size: 4.5em;
-	padding-top: 30px;
+	font-size: 2.5em;
+	padding-top: 60px;
 	color: black;
 }
 
@@ -99,20 +99,39 @@ p {
 /* jumbotron */
 
 .jumbotron {
-	background-image: url('SF_Background.jpg');
+	background-image: url('background.jpg');
 	background-image-width: 100%;
 	text-align: center;
 	padding-bottom: 325px;
 	background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .jumbotron p {
-	padding-top: 100px;
-	color: white;
+	//padding-top: 160px;
+	//color: white;
 	font-family: 'Josefin Sans', sans-serif;
 }
+
+.homebox {
+  padding:12px;
+  background-color: black;
+  line-height:1.4;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-radius: 5px;
+  opacity: 0.85;
+}
+
+.homebox h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 
 /* footer */
 
